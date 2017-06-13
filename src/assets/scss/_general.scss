@@ -1,0 +1,56 @@
+.header{h1{
+  color:$primary-color;
+}
+h1,h2{
+  text-transform: uppercase;
+}
+}
+.grey{
+  color:$dark-gray;
+}
+@mixin colorbox() {
+  width:5rem;
+  height: 5rem;
+  border: 2px solid $black;
+}
+
+.primary{
+  background-color:$primary-color;
+  @include colorbox()
+}
+.secondary{
+  background-color:$secondary-color;
+    @include colorbox()
+}
+.success{
+  background-color:$success-color;
+    @include colorbox()
+}
+.warning{
+  background-color:$warning-color;
+    @include colorbox()
+}
+.alert{
+  background-color:$alert-color;
+    @include colorbox()
+}
+.white{
+  background-color:$white;
+    @include colorbox()
+}
+.black{
+  background-color:$black;
+    @include colorbox()
+}
+.gray{
+  background-color:$light-gray;
+    @include colorbox()
+}
+.mediumgray{
+  background-color:$medium-gray;
+    @include colorbox()
+}
+.darkgray{
+  background-color:$dark-gray;
+    @include colorbox()
+}
